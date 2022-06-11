@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    letter-spacing: 1.3px;
+    text-shadow: 0px 0px 20px rgb(36, 36, 36);
+
+}
+main{
+    height: 100vh;
+    padding: .8em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+#location{
+    margin: 0;
+}
+#time{
+    text-align: center;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+.top > p{
+    margin: 0;
+}
+#crypto-top{
+    display: flex;
+    align-items: center;
+}
+#crypto>p{
+    margin: 0;
+    padding-left: .6em;
+    margin-bottom: .2em;
+    font-size: .8em;
+}
+#time{
+    font-size: 5em;
+    padding-bottom: 2.3em;
+}
+#weather{
+    display: flex;
+    align-items: flex-start;
+}
+#weather>p{
+    padding-top:.5em;
+    margin-left: -10px;
+}
+
